@@ -1,0 +1,93 @@
+* { margin: 0; padding: 0; }
+html { height: 100%; font-size: 62.5% }
+body { height: 100%; background-color: #FFFFFF; font: 1.2em Verdana, Arial, Helvetica, sans-serif; }
+/* ==================== Form style sheet ==================== */
+table.form { margin-top: 100px; border-collapse: collapse; border: 1px solid #DDDDDD; }
+table.form th, table.form td { padding: 4px 5px 10px; text-align: left; font-weight: normal; }
+table.form label { font-family: Verdana, Arial, Helvetica, sans-serif; color: #181818; margin-right: 12px; }
+table.form td span { font-size: 0.9em; color: #181818; margin-left: 8px; }
+table.form td samp { font: 1em Verdana, Arial, Helvetica, sans-serif; color: #000000; }
+table.form input { width: 200px; }
+table.form input.answer { width: 53px; }
+table.form textarea { width: 400px; height: 160px; }
+table.form input.inp-text, table.form input.answer, table.form textarea
+{ border: 1px solid #909090; padding: 2px; }
+
+table.form th.message-up { vertical-align: top !important; }
+
+table.form label.invisible { visibility: hidden; }
+
+table.form td.submit-button-right { text-align: right !important; }
+table.form input.submit-text { font: 1.4em Georgia, "Times New Roman", Times, serif; letter-spacing: 1px; width: auto; }
+
+table.form label.email { border-bottom: 1px dotted #000000; }
+
+/* ==================== Form style sheet END ==================== */
+.thanks-text{margin-left: 250px; margin-top: 100px;}
+.tut{padding:60px 0 0 0; font: 1.4em Georgia, "Times New Roman", Times, serif; }
+
+.send_btn {
+    background: none repeat scroll 0 0 #0D92E1;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font: bold 15px/5px Arial,Helvetica,sans-serif;
+    height: 35px;
+    width: 100px !important;
+	padding: 5px 15px 5px 15px;
+}
+.send_btn1 {
+
+    background: none repeat scroll 0 0 #0D92E1;
+
+    border: medium none;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+
+    font: bold 15px/5px Arial,Helvetica,sans-serif;
+
+    height: 35px;
+
+    width: 250px !important;
+
+	padding: 5px 15px 5px 15px;
+margin-left: -85px;
+}
+
+a{text-decoration: none !important; }
+a:visited{ color: blue;}
+a:hover   {color:blue; background-color:transparent; text-decoration:underline}
+ table {display:table;border-collapse:separate;border-spacing:2px;border-color:gray; margin-left:2em;}
+ table .reference{border-collapse:collapse;width:100%;}
+ table .tecspec{border-collapse:collapse;width:100%;}
+ tr {display: table-row;vertical-align: inherit;border-color: inherit;}
+ tbody{display: table-row-group;vertical-align: middle;border-color: inherit;}
+ table.tecspec th{border:1px solid #d4d4d4;padding:5px;padding-top:7px;padding-bottom:7px;vertical-align:top;
+text-align: center;}
+ table.tecspec td{border:1px solid #d4d4d4;padding:5px;padding-top:7px;padding-bottom:7px;vertical-align:top;text-align:left;}
+ table.reference,table.tecspec{border-collapse:collapse;width:90%;}
+ table.reference tr:nth-child(odd)	{background-color:#f1f1f1;}
+ table.reference tr:nth-child(even)	{background-color:#ffffff;}
+ table.reference tr.fixzebra			{background-color:#f1f1f1;}
+ table.reference th{color:#000;border:1px solid #d4d4d4;padding:3px;vertical-align:top;text-align: center;}
+ table.reference td{border:1px solid #d4d4d4;padding:5px;padding-top:7px;padding-bottom:7px;vertical-align:top;}
+ table.reference td.example_code{vertical-align:bottom;}
+table.summary{border:1px solid #d4d4d4;padding:5px;font-size:100%;color:#555555;background-color:#fafad2;}
+.anu{margin-left:10%;width:14%; height:64%; float:left;}
+.anu a{ top:-10px; background-position:10px;height:100%;width:100%; float:right; background:url(../_images/for.png);background-size: 100% 100%;background-repeat: no-repeat; font-weight:bold; float:left; margin-top:1em;}
+.anu a:hover{background:url(../_images/fornew.png); text-indent: -9999px;background-size: 100% 100%;background-repeat: no-repeat;}
+
+.anu1{margin-left:10%;width:14%; height:64%; float:left;}
+.anu1 a{ top:-10px; background-position:10px;height:100%;width:100%; float:right; background:url(../_images/refe.png);background-size: 100% 110%;background-repeat: no-repeat; font-weight:bold; float:left; margin-top:1em;}
+.anu1 a:hover{background:url(../_images/refenew.png); text-indent: -9999px;background-size: 100% 100%;background-repeat: no-repeat;}
+
+.anu2{margin-left:10%;width:14%; height:64%; float:left;}
+.anu2 a{ top:-10px; background-position:10px;height:100%;width:100%; float:right; background:url(../_images/quiz.png);background-size: 100% 100%;background-repeat: no-repeat; font-weight:bold; float:left; margin-top:1em;}
+.anu2 a:hover{background:url(../_images/quiznew.png); text-indent: -9999px;background-size: 100% 100%;background-repeat: no-repeat;}
+
+.anu3{margin-left:10%;width:14%; height:64%; float:left;}
+.anu3 a{ top:-10px; background-position:10px;height:100%;width:100%; float:right; background:url(../_images/learn.png);background-size: 100% 105%;background-repeat: no-repeat; font-weight:bold; float:left; margin-top:1em;}
+.anu3 a:hover{background:url(../_images/learnnew.png); text-indent: -9999px;background-size: 100% 100%;background-repeat: no-repeat;}
+

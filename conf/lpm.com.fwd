@@ -1,0 +1,14 @@
+$TTL 86400
+softail.co.in. 86400   IN  SOA     softail.co.in. root.projects.quizent.com. (
+        2011071001  ;Serial
+        3600        ;Refresh
+        1800        ;Retry
+        604800      ;Expire
+        86400       ;Minimum TTL
+)
+softail.co.in.   	IN  NS          ns1.quizent.com.
+softail.co.in.       	IN  NS          ns2.quizent.com.
+softail.co.in.		IN  A		192.99.120.123
+green.softail.co.in.       	IN  A           192.99.120.123
+simple.softail.co.in.       	IN  A           192.99.120.123
+fun.softail.co.in.       	IN  A           192.99.120.123
