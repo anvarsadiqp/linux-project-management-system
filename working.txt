@@ -1,0 +1,29 @@
+vhost managment 
+
+Files and Path
+-----------------
+Directories
+/usr/local/lpm         -> This is the project path
+/usr/local/lpm/conf    -> Configuration file and bash scripts
+/usr/local/lpm/vhost   -> Virtual host configuration file
+/usr/local/lpm/site    -> Web site
+/usr/local/lpm/deleted -> Deleted accounts files
+
+
+
+Insturctions
+-----------------
++ Configure LAMP on server
++ Create a directory /usr/local/lpm
++ Copy the files into /usr/src/lpm
++ Add the following lines into /etc/conf/httpd/httpd.con
+      include /usr/local/lpm/conf/lpm.conf
+      include /usr/local/lpm/vhost/*.conf
++ Import the data base file form /usr/local/lpm/conf/data.sql to your database
++ configure the mysql username and password details in /usr/local/lpm/site/dbConfig.php
++ save the mysql root password on this file /usr/local/lpm/mysql
+
+
+
+
+  
