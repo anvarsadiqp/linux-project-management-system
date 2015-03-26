@@ -7,8 +7,8 @@ It will copy the default project contents form the server (we need to upload to 
 + CentOS<br>
 + Virtual Host<br>
 + mysql database<br>
-+ bash + php
-+ web interface
++ bash + php<br>
++ web interface<br>
 <h2>Functions</h2><br>
 <b>Creat a new project with database -> more details conf/create.sh<br></b>
       -> new dirctory for each projects under /home/<br>
@@ -26,10 +26,9 @@ It will copy the default project contents form the server (we need to upload to 
 <b>Delete the projects -> conf/download.sh<br></b>
       -> it will take the backup of current files and backups<br>
       -> the deleted project stored in deleted directories<br>
-      -> 
-<b>Strore the log of projects
-      -> project level /home/*/details.txt
-      -> Admin lever projects.txt AND functions.txt
-<h2>For Support</h2>
-If you need any kind of assistence please contact me
+<b>Strore the log of projects</b><br>
+      -> project level /home/*/details.txt<br>
+      -> Admin lever projects.txt AND functions.txt<br>
+<h2>For Support</h2><br>
+If you need any kind of assistence please contact me<br>
 anvarsadiq@quizent.com
