@@ -3,13 +3,14 @@ This is developed for my Quizent buddies :) for their projects managment<br>
 The use of this project is manage php projects form a server <br>
 Create and manage different type of php projects(drupal,wordpress,core php,html...) from a server.<br>
 It will copy the default project contents form the server (we need to upload to the server.<br>
-#Working functionality<br>
+# Working functionality<br>
 + CentOS<br>
 + Virtual Host<br>
 + mysql database<br>
 + bash + php<br>
-+ web interface<br>
-#Functions<br>
++ web interface
+
+<h1>Functions</h1>
 <b>Creat a new project with database -> more details conf/create.sh<br></b>
       -> new dirctory for each projects under /home/<br>
       -> new database user with the given password<br>
@@ -29,6 +30,7 @@ It will copy the default project contents form the server (we need to upload to 
 <b>Strore the log of projects</b><br>
       -> project level /home/*/details.txt<br>
       -> Admin lever projects.txt AND functions.txt<br>
-#For Support<br>
+
+<h1>For Support</h1>
 If you need any kind of assistence please contact me<br>
 anvarsadiq@quizent.com
