@@ -33,4 +33,4 @@ It will copy the default project contents form the server (we need to upload to 
 
 <h1>For Support</h1>
 If you need any kind of assistence please contact me<br>
-anvarsadiq@quizent.com
+contact@anvarsadiqp.me
