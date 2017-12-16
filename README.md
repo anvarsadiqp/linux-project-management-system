@@ -1,5 +1,5 @@
-# linux-project-managment-system<br>
-This is developed for my Quizent buddies :) for their projects managment<br>
+# linux-project-management-system<br>
+This is developed for my Quizent buddies :) for their projects management<br>
 The use of this project is manage php projects form a server <br>
 Create and manage different type of php projects(drupal,wordpress,core php,html...) from a server.<br>
 It will copy the default project contents form the server (we need to upload to the server.<br>
